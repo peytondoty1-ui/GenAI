@@ -1,0 +1,65 @@
+# LedgerProof AI
+
+LedgerProof AI helps tax associates turn client facts into
+evidence-supported draft tax memos with clear professional-review flags.
+
+## Intended User
+
+Tax associates at regional CPA firms with 50–200 employees who prepare
+client tax memos and supporting workpapers for manager or partner review.
+
+## First Working Slice
+
+A user loads one of two fictional client scenarios and selects
+“Generate Draft Memo.”
+
+The complete-facts example displays a provisional memo with client facts,
+a purchase-total calculation, sample evidence references, and items
+requiring professional review.
+
+The missing-facts example displays clarification questions.
+Blank inputs receive a validation message. Unsupported inputs receive
+an explanation of the demo’s coverage.
+
+## Open the Prototype
+
+Prototype link: REPLACE_WITH_WORKING_REPLIT_LINK
+
+Load an example, select “Generate Draft Memo,” and inspect the result.
+Use “Edit Input / Try Again” to return to the input.
+
+## AI Role and Prototype Status
+
+The future AI system would research authoritative guidance, synthesize
+client documents, prepare and revise draft memos, identify missing facts,
+and route uncertain judgments for professional review.
+
+This milestone uses a Wizard-of-Oz prototype. Drafting, research, and
+judgment routing are simulated through prepared responses.
+
+The interface, example loading, input validation, result display, and
+retry flow work. No live AI model or authoritative-source search is
+connected. Sample evidence is fictional, and the review checklist is
+not tax authority.
+
+## Test Results
+
+| Test | Input or action | What happened | Pass, partial, or fail |
+| --- | --- | --- | --- |
+| Typical | Loaded complete example and generated draft | Not run | Pending |
+| Challenge | Loaded missing-facts example and generated | Not run | Pending |
+| Invalid or empty | Submitted blank input | Not run | Pending |
+
+## Known Limitations
+
+1. **Prepared scenarios only.** The prototype supports two fictional
+   examples. A future version would analyze user-supplied facts
+   and documents.
+
+2. **No live research or tax determination.** Sources and drafting are
+   simulated, and tax treatment remains unresolved. A future version
+   would retrieve authoritative guidance and support professional review.
+
+3. **No persistent client context.** Work is not retained across sessions.
+   A future version would maintain separate client workspaces with
+   documents, prior analyses, and approved decisions.
