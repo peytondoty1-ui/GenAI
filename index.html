@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LedgerProof AI | Course prototype</title>
+    <meta name="description" content="Turn client facts into a supported draft tax memo for professional review. Course prototype with simulated AI and fictional data only." />
+    <meta property="og:title" content="LedgerProof AI" />
+    <meta property="og:description" content="Turn client facts into a supported draft tax memo for professional review. Course prototype with simulated AI and fictional data only." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="LedgerProof AI" />
+    <meta name="twitter:description" content="Turn client facts into a supported draft tax memo for professional review. Course prototype with simulated AI and fictional data only." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="notice" role="note" data-testid="text-notice">
+      Course prototype. AI drafting and research are simulated. Use fictional data only.
+    </div>
+
+    <header class="masthead">
+      <div class="wrap">
+        <p class="eyebrow">Draft memo workspace</p>
+        <h1>LedgerProof AI</h1>
+        <p class="lede">Turn client facts into a supported draft tax memo for professional review.</p>
+      </div>
+    </header>
+
+    <main class="wrap layout">
+      <section class="panel input-panel" aria-labelledby="input-heading">
+        <h2 id="input-heading" class="panel-title">1. Client facts</h2>
+        <div class="button-row">
+          <button type="button" class="btn btn-secondary" id="load-complete" data-testid="button-load-complete">Load Complete Example</button>
+          <button type="button" class="btn btn-secondary" id="load-missing" data-testid="button-load-missing">Load Missing-Facts Example</button>
+        </div>
+        <label for="facts-input" class="field-label">Client facts and tax question</label>
+        <textarea id="facts-input" rows="11" spellcheck="true" data-testid="input-facts" aria-describedby="input-help"></textarea>
+        <p id="input-help" class="help">Load an example, or type fictional facts. Only the two provided examples produce a prepared response.</p>
+        <div class="button-row">
+          <button type="button" class="btn btn-primary" id="generate" data-testid="button-generate">Generate Draft Memo</button>
+          <button type="button" class="btn btn-ghost" id="edit-again" data-testid="button-edit-again">Edit Input / Try Again</button>
+        </div>
+      </section>
+
+      <aside class="panel evidence-panel" aria-labelledby="evidence-heading">
+        <h2 id="evidence-heading" class="panel-title">Sample evidence</h2>
+        <p class="help">These fictional documents belong to the Complete Example only. They are not evidence for any other input, and none has been independently verified.</p>
+        <ol class="evidence-list" id="evidence-list" data-testid="list-evidence"></ol>
+      </aside>
+
+      <section class="panel result-panel" aria-labelledby="result-heading">
+        <h2 id="result-heading" class="panel-title">2. Result</h2>
+        <div id="result" aria-live="polite" data-testid="panel-result">
+          <p class="placeholder">No result yet. Load an example and select Generate Draft Memo.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p>Simulated output. Not tax advice. No current law, IRS guidance, or citations were checked.</p>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
