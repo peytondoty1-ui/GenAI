@@ -8,16 +8,23 @@ The limited claim is that this fictional, prepared workflow can organize stated 
 
 ## Priority improvements and anonymous feedback response
 
-The following feedback was supplied in the revision request. No new reviewer interviews or human testing were conducted.
+The feedback below comes from the supplied peer comments. No new reviewer interviews or human testing were conducted.
 
-| Anonymous feedback | Decision | Reason and response |
+| Feedback or observed issue | Decision | What changed, or why it was not implemented |
 | --- | --- | --- |
-| One reviewer requested completed follow-ups. | Acted on | Add an explicit prepared Northstar answer example after clarification, including manual paste of the same answers. A user can continue rather than encounter the old two-examples-only gate. |
-| Another reviewer requested stronger specialized value beyond generic AI. | Adapted | Emphasize inspectable fact provenance, documentary versus client-reported support, unresolved professional-review work, and a safe purchase-total calculation. These are workflow-specific capabilities, not a claim of proprietary tax intelligence. |
-| Need controls to edit or reject a draft. | Acted on with bounded editing | Editable working notes leave canonical facts, calculation, conclusion, and provisional status protected. Rejection removes the draft; neither control approves tax treatment. |
-| Interpret arbitrary client documents, perform real tax research, or save client history. | Deferred | Outside this course slice and explicitly prohibited in this request. Future work needs evidence validation, privacy, permission, and professional oversight. |
-| Recorded demo and submission. | Demo completed; submission pending | ChatGPT recorded the published prototype with disclosed computer-generated narration, uploaded the MP4, and verified instructor access. Peyton should review the video and submit the repository link and same MP4 in Canvas. |
-| Scope-choice response from Peyton. | Confirmed and acted on | Peyton selected “Keep simulated AI (Recommended),” rejecting a live model for this milestone in favor of a complete testable review workflow. The prototype remains simulated. |
+| Loading an example, generating a memo, editing input, and trying again worked. | Preserved and checked | The central example-to-memo and retry flow remains functional. The revision also adds bounded working-note editing, rejection, and stale-result invalidation. |
+| The provisional memo structure, source references, review checklist, simulation transparency, and distinction between a purchase total and a deduction were useful. | Preserved and expanded | These features remain. Important facts now have inspectable fictional support, relevant evidence is shown per scenario, and documentary samples, client-reported statements, and the non-authoritative checklist are distinguished. |
+| Add stronger specialized value beyond what someone could achieve with a general-purpose AI tool. | Adapted; partially addressed | The revision emphasizes provenance inspection, unresolved review work, source-type distinctions, and draft controls in one tax-associate workflow. It does not establish unique capabilities, superiority over configured general-purpose AI, or a competitive advantage. Comparative testing with tax associates and real research capabilities remain future work. |
+| Supplying answers after the Missing-Facts Example returned the old two-examples-only message. | Acted on; fixed within the simulated scope | An explicit prepared Northstar continuation now produces an updated provisional memo. The prepared answers may be loaded or pasted in the supported form, including after the inquiry. The same task passed its before/after comparison. Arbitrary follow-up wording and real client facts remain unsupported; no general-language understanding is claimed. |
+| In Iris's Verizon cancellation flow, Skip ahead should jump directly to the next decision instead of showing multiple rapid updates. | Not applicable to the current LedgerProof prototype | This comment describes a cancellation/call assistant. LedgerProof has no Verizon cancellation, retention-offer, call-update, or Skip ahead flow. No Iris behavior was changed, and this issue must not be claimed as solved by LedgerProof. |
+
+### Additional product decisions
+
+These decisions come from the assignment requirements and revision work, rather than being falsely attributed to the classmates.
+
+- **Bounded editing and rejection:** working notes can be edited while core facts, calculation, provisional status, and unresolved conclusion remain protected. Rejection removes the draft without approving tax treatment.
+- **Scope:** arbitrary document interpretation, authoritative research, verified treatment, and saved client history remain deferred. Peyton explicitly selected keeping the AI simulated for this milestone.
+- **Recorded demo:** an actual screen recording with disclosed computer-generated narration was completed, uploaded, and made viewable by both required instructors. Peyton's final review and Canvas submission remain his next actions.
 
 Priority order: complete the prepared clarification loop; expose scenario-relevant support; support safe draft control and unresolved review.
 
@@ -67,9 +74,9 @@ No live model, tax-law retrieval, accounts, or client collection is connected.
 
 ## Next priorities
 
-1. Have Peyton review the final AI-use disclosure (his simulated-AI scope choice is already confirmed), finish the separately prepared real computer-narrated recording, and complete required access/submission steps himself.
-2. Evaluate the prepared workflow with consenting tax-associate reviewers using fictional tasks; specifically test provenance comprehension and whether warnings prevent deduction over-reliance.
-3. If a later course milestone permits broader scope, design a structured evidence intake and privacy/review protocol before live research or saved workspaces.
+1. Evaluate fictional tasks with tax associates, including whether provenance and review controls offer useful value over their current tools.
+2. Complete Tab-only and assistive-technology checks and test broader misleading-note paraphrases.
+3. Define structured evidence intake, source verification, privacy, and review controls before considering live research or saved client workspaces.
 
 ## Audit and submission status
 
