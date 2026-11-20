@@ -36,10 +36,11 @@
         <div class="button-row">
           <button type="button" class="btn btn-secondary" id="load-complete" data-testid="button-load-complete">Load Complete Example</button>
           <button type="button" class="btn btn-secondary" id="load-missing" data-testid="button-load-missing">Load Missing-Facts Example</button>
+          <button type="button" class="btn btn-secondary" id="load-conflict" data-testid="button-load-conflict">Load Conflicting-Figures Example</button>
         </div>
         <label for="facts-input" class="field-label">Client facts and tax question</label>
         <textarea id="facts-input" rows="11" spellcheck="true" data-testid="input-facts" aria-describedby="input-help"></textarea>
-        <p id="input-help" class="help">Load an example, or type fictional facts. Only the two provided examples produce a prepared response.</p>
+        <p id="input-help" class="help">Wizard-of-Oz prototype: responses are prepared in advance and no model runs. Supported inputs: the Complete Example, the Missing-Facts Example, its prepared follow-up answers (alone, or after the inquiry with one blank line), and the conflicting-figures variants. Leading/trailing whitespace and line endings are tolerated. Other edits are not interpreted. Use fictional data only.</p>
         <div class="button-row">
           <button type="button" class="btn btn-primary" id="generate" data-testid="button-generate">Generate Draft Memo</button>
           <button type="button" class="btn btn-ghost" id="edit-again" data-testid="button-edit-again">Edit Input / Try Again</button>
@@ -48,7 +49,7 @@
 
       <aside class="panel evidence-panel" aria-labelledby="evidence-heading">
         <h2 id="evidence-heading" class="panel-title">Sample evidence</h2>
-        <p class="help">These fictional documents belong to the Complete Example only. They are not evidence for any other input, and none has been independently verified.</p>
+        <p class="help" id="evidence-help">No scenario evidence.</p>
         <ol class="evidence-list" id="evidence-list" data-testid="list-evidence"></ol>
       </aside>
 
