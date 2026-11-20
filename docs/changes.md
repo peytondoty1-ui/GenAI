@@ -24,7 +24,7 @@ The main agent corrected the initial implementation's follow-up wording to match
 
 GitHub handoff must update only the relevant application and milestone documents. Unrelated content must be preserved. Existing remote README content is retained as historical documentation before replacement. No secrets, credentials, `.env`, installed dependencies, or unused scaffold files belong in the source handoff.
 
-Recording, Drive access checks, Canvas upload, and Peyton's broader final disclosure review remain pending; this record does not claim those actions occurred.
+At the earlier Replit handoff, recording, Drive access checks, Canvas upload, and Peyton's broader final review remained pending. The final ChatGPT handoff below supersedes the recording and Drive statuses; Canvas and broader final review remain pending.
 
 ## Subsequent palette request
 
@@ -38,8 +38,13 @@ Peyton requested ink/charcoal and emerald in place of navy. Applied the palette 
 - README now leads with Python's static-server instructions for the standalone public handoff, with no absent-workspace package commands.
 - Replaced personal-decision placeholders with Peyton's actual confirmed “Keep simulated AI (Recommended)” selection. He rejected adding a live model for this milestone and chose the complete testable review workflow. Broader final review remains pending.
 - Clarified ChatGPT's handoff-reported planning, original Canvas/repository review, independent baseline testing, and prepared computer-generated narration; representative prompt excerpts were sent by ChatGPT on Peyton's behalf, not asserted to be verbatim prompts Peyton typed. Replit Agent implementation/testing/documentation are distinct.
-- The computer-narrated screen recording is being prepared separately and remains pending until it actually exists. No sharing, messages, or Canvas submission occurred.
+- At that earlier stage, the computer-narrated recording was still being prepared and no sharing or Canvas submission had occurred. The final handoff below records the later completed video and verified Drive access.
 
 Prior actual evaluation records and screenshots remain unchanged. The latest targeted verification is separate from the five-case milestone record.
 
 Targeted browser verification passed for exact computed brand colors, text contrast, corrected complete-example tax year, unverified follow-up year, reviewer wording, S2 inspection, and mobile layout. [Report](evidence/banner-brand-tax-year-check.md), [actual screenshot](evidence/banner-brand-tax-year.png). Prior test evidence was not overwritten.
+
+
+## Final ChatGPT handoff
+
+The earlier Replit handoff's pending-video status has been superseded. ChatGPT independently checked five published-workflow cases and source/review controls, verified the final ink/emerald palette and tax-year correction, recorded a real 2:41 browser walkthrough with disclosed computer-generated narration, uploaded the MP4 to ND Google Drive, and verified reader access for both required instructors without sending invitation emails. The README, disclosure, demo record, and checklist reflect this completed work. Canvas has not been submitted. See [published verification](published-verification.md) and [recorded demo](demo.md).

@@ -1,0 +1,8 @@
+{
+  "input": "Northstar Design LLC bought four laptops at $1,800 each, invoice total $7,200, tax year 2026, placed in service September 15, 2026, business use 100%, policy and election documents not supplied.",
+  "expected": "Updated provisional draft with unresolved questions",
+  "actual": "2. Result\n\nThis simulated prototype supports the two provided examples. Load an example to explore the workflow.",
+  "outcome": "Fail",
+  "method": "Original pre-revision app retained in an isolated browser page loaded before deployment; same input/task as published case 2",
+  "baselineCommit": "73d0c6dec8f81e8fcbc123cea086a5a078334af3"
+}

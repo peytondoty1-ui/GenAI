@@ -16,7 +16,7 @@ The following feedback was supplied in the revision request. No new reviewer int
 | Another reviewer requested stronger specialized value beyond generic AI. | Adapted | Emphasize inspectable fact provenance, documentary versus client-reported support, unresolved professional-review work, and a safe purchase-total calculation. These are workflow-specific capabilities, not a claim of proprietary tax intelligence. |
 | Need controls to edit or reject a draft. | Acted on with bounded editing | Editable working notes leave canonical facts, calculation, conclusion, and provisional status protected. Rejection removes the draft; neither control approves tax treatment. |
 | Interpret arbitrary client documents, perform real tax research, or save client history. | Deferred | Outside this course slice and explicitly prohibited in this request. Future work needs evidence validation, privacy, permission, and professional oversight. |
-| Real recorded video and submission. | Pending owner action | A script/checklist and separate computer-generated narration preparation do not establish a finished recording; no sharing, messages, or Canvas submission is performed by this revision. |
+| Recorded demo and submission. | Demo completed; submission pending | ChatGPT recorded the published prototype with disclosed computer-generated narration, uploaded the MP4, and verified instructor access. Peyton should review the video and submit the repository link and same MP4 in Canvas. |
 | Scope-choice response from Peyton. | Confirmed and acted on | Peyton selected “Keep simulated AI (Recommended),” rejecting a live model for this milestone in favor of a complete testable review workflow. The prototype remains simulated. |
 
 Priority order: complete the prepared clarification loop; expose scenario-relevant support; support safe draft control and unresolved review.
@@ -73,9 +73,10 @@ No live model, tax-law retrieval, accounts, or client collection is connected.
 
 ## Audit and submission status
 
-- [Actual tests](tests.md), [baseline](evidence/before-change.md), and [change record](changes.md).
-- [Draft AI-use disclosure](ai-use-disclosure.md): Peyton's simulated-AI scope decision confirmed; broader final review pending. ChatGPT planning/review/testing/narration contributions and Replit implementation/testing/documentation are attributed separately.
-- [Demo script and recording checklist](demo.md): real video pending, no video link.
-- Repository: https://github.com/peytondoty1-ui/GenAI
-- Public prototype supplied by the user: https://ledger-proof-ai.replit.app/ — deployment of this revision is not assumed.
-- No email, Drive sharing, or Canvas submission was performed.
+- [Development test record](tests.md) and [independent published verification](published-verification.md).
+- [Draft AI-use disclosure](ai-use-disclosure.md) records Peyton's confirmed scope decision; broader final review remains his responsibility.
+- [Actual narrated demo](https://drive.google.com/file/d/1_aQ7fVNYklS2G46TxJyBncQ-dpkYaXPi/view?usp=drivesdk) and [transcript](demo-script.md). Computer-generated narration is disclosed.
+- Reader access for both required instructors was verified. No invitation emails were sent.
+- Public repository: https://github.com/peytondoty1-ui/GenAI
+- Published prototype: https://ledger-proof-ai.replit.app/
+- Canvas submission remains pending; see the [checklist](../submission-checklist.md).

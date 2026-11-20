@@ -1,0 +1,10 @@
+{
+  "theme": {
+    "header": "rgb(15, 22, 31)",
+    "button": "rgb(18, 191, 144)",
+    "buttonText": "rgb(15, 22, 31)"
+  },
+  "taxYearRow": "Tax year\tNot supplied — needs confirmation\tThe placed-in-service date does not establish the client's tax year; confirm separately. Inspect source S2",
+  "outcome": "Pass",
+  "note": "Targeted published checks after the color, tax-year, and reviewer-wording correction."
+}

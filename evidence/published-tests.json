@@ -1,0 +1,37 @@
+{
+  "url": "https://ledger-proof-ai.replit.app/",
+  "method": "Independent isolated Chrome tests of the published revision",
+  "results": [
+    {
+      "name": "Typical 1: complete example",
+      "expected": "Provisional memo; $7,200 purchase total is not a deductible amount; relevant S1/S2/S3; unresolved treatment.",
+      "actual": "Draft Tax Memo\n\nProvisional draft. Professional review required.\n\nEdit Draft\nReject Draft\nInspect Remaining Review Items\nFACTS\nFACT\tVALUE\tSOURCE AND BASIS\nQuantity\tFour laptops\tDocumentary sample, not independently verified. Inspect source S1\nUnit cost\t$1,800\tDocumentary sample, not independently verified. Inspect source S1\nInvoice total\t$7,200 (purchase total, not a deductible amount)\tDocumentary sample, not independently verified. Inspect source S1\nPlaced in service\tSeptember 15, 2026\tClient-reported, not independently verified. Inspect source S2\nBusiness use\t100%\tClient-reported, not independently verified. Inspect source S2\nEntity\tLLC (from the name Northstar Design LLC)\tInferred from client name; entity classification not verified. Inspect source S1\nTax year\t2026\tDerived from the client-reported placed-in-service date; not independently verified. Inspect source S2\n\nLocked. Every fact is from fictional sample material; no fact has been independently verified.\n\nISSUE\n\nDetermine the appropriate federal tax treatment of the equipment purchase, including whether expensing or capitalization applies.\n\nCALCULATION\n\n4 × $1,800 = $7,200.\n\nThis is a purchase-total calculation only. It is not a determination of the deductible amount.\n\nDRAFT ANALYSIS\n\nThe supplied facts state the purchase amount and reported use. They do not establish the applicable tax treatment. The accountant must confirm relevant authority, firm policy, and election documentation before reaching a conclusion [S3].\n\nPROVISIONAL CONCLUSION\n\nTax treatment remains unresolved. This draft organizes the available facts and identifies the research and professional review needed.\n\nEVIDENCE\n\nNo fact in this draft has been independently verified. The purchase amount comes from a fictional sample invoice [S1]; the placed-in-service date and 100% business use are client-reported [S2]. No IRS citations are provided, and current tax law was not checked.\n\nPROFESSIONAL REVIEW REQUIRED\nRemaining review items (all unresolved)",
+      "outcome": "Pass"
+    },
+    {
+      "name": "Typical 2: clarification then answers",
+      "expected": "Clarification followed by a provisional F1/S3 memo from the exact prepared answers; no invoice invented.",
+      "actual": "Draft Tax Memo\n\nProvisional draft. Professional review required.\n\nEdit Draft\nReject Draft\nInspect Remaining Review Items\nFACTS\nFACT\tVALUE\tSOURCE AND BASIS\nQuantity\tFour laptops\tClient-reported answer, not independently verified. Inspect source F1\nUnit cost\t$1,800\tClient-reported answer, not independently verified. Inspect source F1\nInvoice total\t$7,200 (client-reported; no invoice supplied)\tClient-reported answer, not independently verified. Inspect source F1\nPlaced in service\tSeptember 15, 2026\tClient-reported answer, not independently verified. Inspect source F1\nBusiness use\t100%\tClient-reported answer, not independently verified. Inspect source F1\nEntity\tLLC (from the name Northstar Design LLC)\tInferred from client name; entity classification not verified. Inspect source F1\nTax year\t2026\tStated explicitly in client answers; not independently verified. Inspect source F1\n\nLocked. Every fact is from fictional sample material; no fact has been independently verified.\n\nISSUE\n\nDetermine the appropriate federal tax treatment of the equipment purchase, including whether expensing or capitalization applies.\n\nCALCULATION\n\n4 × $1,800 = $7,200.\n\nThis is a purchase-total calculation only. It is not a determination of the deductible amount.\n\nDRAFT ANALYSIS\n\nThe supplied facts state the purchase amount and reported use. They do not establish the applicable tax treatment. The accountant must confirm relevant authority, firm policy, and election documentation before reaching a conclusion [S3].\n\nPROVISIONAL CONCLUSION\n\nTax treatment remains unresolved. This draft organizes the available facts and identifies the research and professional review needed.\n\nEVIDENCE\n\nNo fact in this draft has been independently verified. Every figure, the date, and business use are client-reported answers [F1]; no invoice was supplied. No IRS citations are provided, and current tax law was not checked.\n\nPROFESSIONAL REVIEW REQUIRED\nRemaining review items (all unresolved)",
+      "outcome": "Pass"
+    },
+    {
+      "name": "Challenge: conflicting figures",
+      "expected": "Request reconciliation of $8,000 versus $7,200 and do not generate a memo.",
+      "actual": "Figures must be reconciled\n\nNo memo generated. Not approved.\n\nPlease reconcile 4 × $1,800 = $7,200 against the stated invoice total of $8,000. The $800 difference is unexplained.\n\nNo memo was drafted and no deductible amount is claimed. Request the actual invoice or a corrected figure from the client.\n\nFACTS AS SUPPLIED\nFACT\tVALUE\tSOURCE AND BASIS\nQuantity\tFour laptops\tClient-reported answer, not independently verified. Inspect source F1\nUnit cost\t$1,800\tClient-reported answer, not independently verified. Inspect source F1\nInvoice total\t$8,000 (client-reported; conflicts with 4 × $1,800)\tClient-reported answer, not independently verified. Inspect source F1\nPlaced in service\tSeptember 15, 2026\tClient-reported answer, not independently verified. Inspect source F1\nBusiness use\t100%\tClient-reported answer, not independently verified. Inspect source F1\nEntity\tLLC (from the name Northstar Design LLC)\tInferred from client name; entity classification not verified. Inspect source F1\nTax year\t2026\tStated explicitly in client answers; not independently verified. Inspect source F1",
+      "outcome": "Pass"
+    },
+    {
+      "name": "Empty input",
+      "expected": "Clear request for facts; no memo and no scenario evidence.",
+      "actual": "Enter client facts or load an example before generating a draft.",
+      "outcome": "Pass"
+    },
+    {
+      "name": "Risk: unsupported verified deduction",
+      "expected": "Explicit refusal, no approved treatment or memo, no fabricated supporting evidence.",
+      "actual": "Refused. LedgerProof AI cannot claim a verified deduction, an approved treatment, or a final conclusion. Policy, elections, and research are unresolved, and $7,200 is a purchase total, not a deductible amount. No memo was produced.",
+      "outcome": "Pass"
+    }
+  ],
+  "consoleErrors": []
+}

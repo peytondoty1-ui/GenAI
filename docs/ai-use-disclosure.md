@@ -1,42 +1,50 @@
-# Draft AI-use disclosure — scope decision confirmed; final review pending
+# Draft AI-use disclosure
 
-This is a draft for Peyton to review and make accurate before submission. It is not a statement that Peyton has already reviewed or approved the work.
+Prepared with AI assistance for Peyton to review before submission. This disclosure does not claim that Peyton has personally inspected every line of code or independently verified the tax content.
 
-## Actual assistance
+## Tools and actual assistance
 
-Per the confirmed coordination handoff, **ChatGPT** assisted with planning, the original Canvas/repository review, independent baseline testing, and preparation of computer-generated narration. It sent representative implementation requests to Replit Agent on Peyton's behalf. These ChatGPT contributions are attributed from that handoff; they are not actions independently performed by Replit Agent.
+- **ChatGPT / Codex:** reviewed the assignment and Canvas peer feedback, inspected the repository and published app, organized the revision request, checked the published workflows in an isolated browser, prepared documentation and narration, and coordinated the repository and demo handoff.
+- **Replit Agent:** implemented the revised interface and prepared scenarios, drafted the initial milestone documents, reproduced the earlier failure, ran development-preview checks, and synchronized the source and documentation to GitHub. Replit Agent reported using implementation and browser-testing assistance within its workflow.
+- **Non-AI verification and production tools:** Google Chrome and Playwright for browser checks and screen capture; FFmpeg for video/audio export; the built-in macOS Samantha speech-synthesis voice for the demo narration. The narration does not imitate Peyton's voice.
 
-**Replit Agent** inspected and implemented the existing application, using a design implementation assistant for frontend changes and a browser-testing assistant for its own retained before/after verification. Replit Agent prepared milestone documentation and a demo-script draft, corrected source/branding, and synchronized the relevant source, documentation, and actual browser evidence to the authorized GitHub repository.
+AI assistance used to build and explain the prototype is separate from AI behavior inside the product. No live language model or tax-law retrieval service powers this prototype. Specific underlying model versions used by Replit Agent were not independently verified and are not asserted here.
 
-Prepared computer-generated narration and the computer-narrated screen recording are distinct deliverables. The recording is being prepared separately and remains **pending** until it actually exists; no completed video or access link is claimed.
+## Representative prompts and resulting work
 
-AI assistance in building the prototype is separate from the prototype's own **Wizard-of-Oz simulation**. No live AI model powers the prototype, and no real tax-law research or verified tax determination was performed.
+These are excerpts from prompts ChatGPT sent to Replit Agent on Peyton's behalf. They are not presented as verbatim instructions Peyton personally typed or as a reconstructed history of earlier development.
 
-## Representative prompts from this request
+| Representative prompt | What it produced | What was changed or checked |
+| --- | --- | --- |
+| “Complete the missing-facts workflow … Support a clear prepared follow-up example and make the supported boundaries explicit.” | A prepared-answer continuation, supported answer matching, and an updated provisional memo. | The supplied answers remain client-reported F1 evidence. No invoice or verified tax treatment is invented. The same task was compared before and after revision. |
+| “Show evidence relevant to the current scenario only” and “Editing a draft must preserve the provisional/simulated status.” | Scenario-specific evidence, inspectable sources, bounded working notes, rejection/retry, and unresolved review items. | Published checks opened S1, S2, F1, and S3; exercised note saving, literal unsafe-note refusal, rejection, retry, and stale-result invalidation. These are automated checks, not professional approval. |
+| “Match those brand colors: ink header and notice, bright emerald primary actions and accents” and “mark the tax year as not supplied/needs confirmation rather than deriving a confirmed tax year from the date.” | A banner-matched color revision and a more cautious complete-example fact label. | Color contrast and the changed fact label were checked separately from the five main workflow cases. Documentation was corrected to use standalone run instructions and accurate attribution. |
 
-- “complete the missing-facts workflow … Support a clear prepared follow-up example and make the supported boundaries explicit”
-- “Show evidence relevant to the current scenario only.”
-- “Editing a draft must preserve the provisional/simulated status”
-- “If figures conflict, ask for clarification instead of silently asserting a calculation.”
-- “Before making changes, reproduce and retain the earlier failure”
-- “Run at least five DISTINCT actual tests … State success criteria BEFORE executing each”
+## Peyton's confirmed judgment
 
-These are representative excerpts sent by **ChatGPT on Peyton's behalf** in the coordinated revision request. They are **not claimed to be verbatim prompts Peyton personally typed**, nor an invented prompt history.
+On November 19, 2026, ChatGPT presented two scope choices: keep the AI simulated for this milestone or add a live model. Peyton explicitly selected **“Keep simulated AI (Recommended).”**
 
-## Verification
+That decision rejected expanding this revision into live-model integration and kept the work focused on a complete, testable review workflow. The resulting prototype retains prepared examples and openly labels its simulated research and drafting. This is Peyton's confirmed decision; other implementation decisions made by the assistants are not automatically attributed to him.
 
-Replit Agent's retained verification used actual browser observations for the baseline and revised test record. See [tests.md](tests.md) and [before-change.md](evidence/before-change.md). This is separate from ChatGPT's independently reported baseline testing. Code inspection and syntax checks supplement observations; they do not substitute for tax verification or human usability testing. Failed or untested checks remain identified honestly. The computer-narrated screen recording remains pending.
+Peyton also requested the newer LedgerProof colors. ChatGPT inspected the saved emerald/ink banner and supplied sampled color references for the styling revision.
 
-## Peyton's confirmed scope decision
+## Verification and remaining uncertainty
 
-Peyton actually selected **“Keep simulated AI (Recommended)”** in the scope-choice question. He rejected adding a live model for this milestone and chose a complete, testable review workflow.
+Replit Agent recorded pre-change and development-preview observations. ChatGPT then ran five distinct cases against the published functional revision: complete example, clarification followed by prepared answers, conflicting figures, empty input, and an unsupported verified-deduction demand. Expected behavior was stated before execution. All five passed their scoped criteria. Additional checks covered source inspection, draft controls, invalidation, and one mobile viewport. See [published verification](published-verification.md) and [development test record](tests.md).
 
-- **Alternative rejected:** adding a live model for this milestone.
-- **Choice confirmed:** keep simulated AI and complete the testable review workflow.
-- **Effect on the final work:** clarification continuation, scenario-specific source inspection, draft notes/rejection/review controls, and strict supported-input boundaries remain deterministic and fictional. No live model or authoritative-source retrieval was added.
+A case-sensitive test assertion was corrected for a label visually rendered uppercase by CSS; that required no product change. Earlier development-preview anomalies and partial accessibility checks remain documented rather than silently removed. Broad semantic safety, full assistive-technology access, tax correctness, real-document interpretation, real-user usefulness, and time savings have not been established.
 
-This records the confirmed selection and its stated scope consequence; it does not invent additional personal reasoning or claim Peyton has completed his broader final review. Bounded notes editing remains an implementation decision, not a separate personally rejected suggestion.
+The demo is a screen recording with computer-generated narration, not evidence that a human tax associate tested the product. The narration and transcript describe the limited simulated experience.
 
-## Before using this disclosure
+## AI inside the product
 
-Peyton: review the complete disclosure for accuracy, read the code and documentation, check course disclosure requirements, and take responsibility for the final submission. The scope choice above is confirmed; broader final review remains yours. Do not claim unperformed human review, model accuracy, time savings, or tax research.
+| Element | Current status |
+| --- | --- |
+| Intended task | Organize client facts and support into a provisional memo, request missing information, and expose unresolved review work. |
+| Inputs | Fictional prepared client facts, a missing inquiry, and explicitly supported prepared answers or conflict scenarios. |
+| Outputs | Prewritten provisional memo, clarification request, conflict explanation, or validation/refusal message. |
+| Functional behavior | Loading and strict scenario matching, validation, continuation, source inspection, working-note controls, rejection, invalidation, focus/scroll, and review-item inspection. |
+| Simulated behavior | Research, drafting, source-to-scenario mapping, and judgment flags are prepared in advance. Fictional support is not independently verified. |
+| Value and limit | The workflow demonstrates organization and review control. It does not establish an accurate deduction, autonomous research, professional approval, or productivity savings. |
+
+Before submitting, Peyton should review this account for accuracy and take responsibility for the final work. No completed Canvas submission or unperformed personal code review is claimed.

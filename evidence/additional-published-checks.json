@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "F1 client-answer source opens",
+    "S1 invoice, S2 client questionnaire, and S3 non-authoritative checklist all open",
+    "Working note saves with unverified status; provisional status retained (assertion corrected to ignore CSS capitalization)",
+    "Tested verification claim refused in notes; cancel exits editor",
+    "Unresolved items inspect, reject removes memo/notes, and retry regenerates",
+    "Input changes clear stale memo and evidence",
+    "390px mobile viewport has no horizontal overflow"
+  ],
+  "mobileBounds": {
+    "viewport": 390,
+    "width": 390
+  },
+  "harnessNote": "A case-sensitive assertion initially failed on a label rendered uppercase by CSS. The assertion was corrected; no product change was needed."
+}
