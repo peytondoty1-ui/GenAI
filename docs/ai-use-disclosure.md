@@ -26,7 +26,7 @@ On November 19, 2026, ChatGPT presented two scope choices: keep the AI simulated
 
 That decision rejected expanding this revision into live-model integration and kept the work focused on a complete, testable review workflow. The resulting prototype retains prepared examples and openly labels its simulated research and drafting. This is Peyton's confirmed decision; other implementation decisions made by the assistants are not automatically attributed to him.
 
-Peyton also requested the newer LedgerProof colors. ChatGPT inspected the saved emerald/ink banner and supplied sampled color references for the styling revision.
+Peyton also made an actual correction to the AI-assisted design. After the initial revision retained the earlier palette, he asked: “can you make it the new ledgerproof colors?” ChatGPT then inspected the saved LedgerProof banner, and the styling was revised to sampled ink #0F161F and emerald #12BF90, with ink text on the emerald primary action for contrast. This replaced the assistants' initial styling with the product's existing visual identity. The correction is documented in this conversation and visible in the published app; it is not an invented example of personal review.
 
 ## Verification and remaining uncertainty
 
