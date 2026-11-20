@@ -1,6 +1,6 @@
 # Narrated demo and recording checklist
 
-**Status: real demo video pending.** No recording or share link exists in this revision. The following is a proposed narration, not a transcript of a completed recording.
+**Status: computer-narrated screen recording pending.** Prepared computer-generated narration is being coordinated separately with ChatGPT. It is not a completed recording or a verified share link. The following Replit Agent draft script is available for adaptation, not a transcript of a completed video.
 
 ## Natural 2–3 minute script
 
@@ -16,7 +16,7 @@ Target: approximately 2 minutes 40 seconds, depending on narration and clicks. T
 
 **Inspect support — open one invoice source and one reported-statement source**
 
-“The important facts have inspectable support. Here the invoice is a fictional documentary sample. The service date and business-use statement come from a fictional client questionnaire, not independent verification. The review checklist is a workflow aid, not authoritative tax guidance.”
+“The important facts have inspectable support. Here the invoice is a fictional documentary sample. The service date and business-use statement come from a fictional client questionnaire, not independent verification. A service date in 2026 does not establish the client's tax year, which still needs confirmation in this example. The review checklist is a workflow aid, not authoritative tax guidance.”
 
 **Missing-facts continuation — load missing, generate, load prepared answers, generate**
 
@@ -36,10 +36,11 @@ Target: approximately 2 minutes 40 seconds, depending on narration and clicks. T
 
 ## Recording checklist
 
-- [ ] Peyton confirms his own actual rejected/corrected suggestion in [AI-use disclosure](ai-use-disclosure.md).
+- [x] Peyton selected “Keep simulated AI (Recommended),” rejecting a live model for this milestone and choosing a complete testable review workflow; recorded in [AI-use disclosure](ai-use-disclosure.md).
+- [ ] Peyton reviews the broader final AI-use disclosure and attribution.
 - [ ] Confirm the app being recorded includes this revision; republish first if using the public prototype.
 - [ ] Rehearse the current control labels and source panels; use only fictional examples.
-- [ ] Record a real screen-and-voice demonstration, approximately 2–3 minutes.
+- [ ] Complete the real computer-narrated screen recording, approximately 2–3 minutes; prepared narration alone does not complete this item.
 - [ ] Show the simulation notice, complete example, source inspection, missing-facts continuation, edits/rejection/review, and conflict warning.
 - [ ] Keep the provisional status and purchase-total caveat readable.
 - [ ] Avoid presenting browser-test screenshots as a human usability study.

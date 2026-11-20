@@ -2,6 +2,24 @@
 
 Turn client facts into a supported draft tax memo for professional review.
 
+## Run the standalone application
+
+Download or clone this repository. With **Python 3** installed, run from the repository root:
+
+```sh
+python3 -m http.server 8000
+```
+
+Open **http://localhost:8000**. Use an HTTP server rather than opening `index.html` directly because the browser loads JavaScript modules.
+
+This public repository contains standalone HTML, CSS, JavaScript, an icon, and milestone documentation. **No package installation, workspace scaffolding, build step, backend, database, or API key is required.**
+
+Prototype link: https://ledger-proof-ai.replit.app/ — publication of the latest revision must be checked separately.
+
+## Brand
+
+LedgerProof ink **#0F161F** and emerald **#12BF90**, from the sampled Emerald LinkedIn Cover Banner supplied in the branding request. Header and notice use ink with white text; primary actions use emerald with ink text. Links/small text on light surfaces use deeper emerald **#047857** for readability.
+
 ## Intended user
 
 A tax associate at a regional CPA firm preparing evidence-supported draft memos and identifying missing information and judgments that require professional review.
@@ -16,33 +34,13 @@ The missing-facts example asks for missing information and now accepts an explic
 
 - [Priority improvements, feedback response, decisions, risk, interpretation, and next priorities](docs/milestone.md)
 - [Five distinct tests: preregistered criteria and actual results](docs/tests.md)
+- [Latest targeted brand contrast, tax-year, and reviewer-wording check](docs/evidence/banner-brand-tax-year-check.md)
 - [Same-task before-change failure](docs/evidence/before-change.md) and [actual baseline screenshot](docs/evidence/before-change.png)
 - [Auditable changes and handoff](docs/changes.md)
-- [Draft AI-use disclosure — Peyton confirmation required](docs/ai-use-disclosure.md)
+- [Draft AI-use disclosure — scope decision confirmed; final review pending](docs/ai-use-disclosure.md)
 - [2–3 minute narrated demo script and recording checklist — real video pending](docs/demo.md)
 
 This is a **Wizard-of-Oz simulation**. No live model, real tax-law retrieval, client collection, or verified tax treatment is provided.
-
-## Run locally
-
-The application uses plain HTML, CSS, and JavaScript. Vite is used only to serve and build the static files; there is no application backend.
-
-From the repository root:
-
-```sh
-pnpm install
-PORT=5173 BASE_PATH=/ pnpm --filter @workspace/ledgerproof-ai run dev
-```
-
-Open `http://localhost:5173` when running on your own computer. In Replit, use the LedgerProof AI preview and its Run workflow.
-
-To build the static site locally:
-
-```sh
-PORT=5173 BASE_PATH=/ pnpm --filter @workspace/ledgerproof-ai run build
-```
-
-Prototype link: https://ledger-proof-ai.replit.app/
 
 ## Try the prepared workflows
 
@@ -68,6 +66,7 @@ After generation, the page scrolls to the result and moves keyboard focus to its
 - This version uses prepared responses. Input handling, example loading, validation, result display, and retry work. Research, drafting, and judgment routing are simulated; no live AI or tax-law research occurs.
 - Sample evidence is fictional and inspectable per fact. Documentary samples, client-reported statements, and non-authoritative workflow checklists are distinguished. Follow-up figures/date/use come from client-reported answers, not a supplied invoice. No facts are independently verified.
 - Draft annotation edit/save/cancel, rejection, and unresolved review inspection are functional. A simple phrase check blocks some verification/approval claims; it is not semantic fact checking. Canonical facts and tax conclusion remain protected.
+- In the complete example, tax year is **not supplied and needs confirmation**; a 2026 placed-in-service date is not proof of the client's tax year. The prepared follow-up separately states tax year 2026 as an unverified client-reported answer.
 - There are no accounts, database, API keys, paid services, or application-server requests. Input is held only in the current page and is not saved.
 
 ## Future AI role
@@ -117,7 +116,7 @@ The published prototype must be republished to include this update; the historic
 
 ## Standalone source handoff
 
-The runnable application consists of `index.html`, `styles.css`, `app.js`, `examples.js`, and `favicon.svg` (the icon comes from `artifacts/ledgerproof-ai/public/`). The source files are served unchanged; no React runtime or backend is needed.
+The runnable application consists of `index.html`, `styles.css`, `app.js`, `examples.js`, and `favicon.svg` in the repository root. The source files are served unchanged; no React runtime or backend is needed.
 
 To run these standalone files after downloading the GitHub handoff, put them in the same directory and serve it with any static HTTP server. For example, if Python 3 is installed:
 
@@ -133,6 +132,6 @@ The repository's prior README is retained at [docs/history/repository-readme-bef
 
 ## Remaining owner actions
 
-The real demo video is **pending**. Peyton must record it, ensure Google Drive viewing access for the two required instructors listed in the recording checklist, and upload the video directly to Canvas with the GitHub URL. No emails, file sharing, or Canvas submission were performed. Peyton must confirm his own actual rejected/corrected AI suggestion in the disclosure. The published prototype must be republished to contain this revision.
+The computer-narrated screen recording is **being prepared separately and remains pending** until a real recording exists. Prepared narration is not a completed recording. Peyton must review the final disclosure and recording, ensure Google Drive viewing access for the two required instructors listed in the recording checklist, and upload the real video directly to Canvas with the GitHub URL. No emails, messages, file sharing, or Canvas submission were performed. Peyton's confirmed choice to keep simulated AI and reject a live model is now documented. Publish/recheck the public prototype before recording.
 
-Only the application files and this README belong in the handoff; unrelated repository content must be preserved. Do not upload secrets, credentials, `.env` files, installed dependencies, or the unused workspace scaffolding.
+Only the application files and relevant milestone documentation/evidence belong in the handoff; unrelated repository content must be preserved. Do not upload secrets, credentials, `.env` files, installed dependencies, or the unused workspace scaffolding.

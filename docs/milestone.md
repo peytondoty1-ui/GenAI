@@ -16,7 +16,8 @@ The following feedback was supplied in the revision request. No new reviewer int
 | Another reviewer requested stronger specialized value beyond generic AI. | Adapted | Emphasize inspectable fact provenance, documentary versus client-reported support, unresolved professional-review work, and a safe purchase-total calculation. These are workflow-specific capabilities, not a claim of proprietary tax intelligence. |
 | Need controls to edit or reject a draft. | Acted on with bounded editing | Editable working notes leave canonical facts, calculation, conclusion, and provisional status protected. Rejection removes the draft; neither control approves tax treatment. |
 | Interpret arbitrary client documents, perform real tax research, or save client history. | Deferred | Outside this course slice and explicitly prohibited in this request. Future work needs evidence validation, privacy, permission, and professional oversight. |
-| Real recorded video and submission. | Pending owner action | A script/checklist is prepared; no recording, sharing, emails, or Canvas submission is performed by this revision. |
+| Real recorded video and submission. | Pending owner action | A script/checklist and separate computer-generated narration preparation do not establish a finished recording; no sharing, messages, or Canvas submission is performed by this revision. |
+| Scope-choice response from Peyton. | Confirmed and acted on | Peyton selected “Keep simulated AI (Recommended),” rejecting a live model for this milestone in favor of a complete testable review workflow. The prototype remains simulated. |
 
 Priority order: complete the prepared clarification loop; expose scenario-relevant support; support safe draft control and unresolved review.
 
@@ -34,7 +35,7 @@ Success criterion set before the baseline: generate an updated provisional memo 
 
 ## Supported boundaries
 
-The complete example, the missing inquiry, the prepared Northstar follow-up, and explicit conflicting-figure examples are deterministic scenarios. Leading/trailing whitespace and line endings are harmless; material edits are not silently discarded. The prepared answers are fictional client-reported statements, not a newly uploaded invoice. Policy and election documents are still absent. A checklist is not authority. Nothing is independently verified.
+The complete example, the missing inquiry, the prepared Northstar follow-up, and explicit conflicting-figure examples are deterministic scenarios. Leading/trailing whitespace and line endings are harmless; material edits are not silently discarded. The prepared answers are fictional client-reported statements, not a newly uploaded invoice. Policy and election documents are still absent. A checklist is not authority. Nothing is independently verified. In the complete example, tax year is not supplied and needs confirmation; a 2026 placed-in-service date does not establish it. The follow-up explicitly reports tax year 2026 without verification. Remaining items require a qualified professional/reviewer, not an assertion of a particular licensing requirement.
 
 The $7,200 is only the purchase total. A request for a verified full deduction or an approved final memo must not become a supported analysis.
 
@@ -66,14 +67,14 @@ No live model, tax-law retrieval, accounts, or client collection is connected.
 
 ## Next priorities
 
-1. Have Peyton confirm the AI-use disclosure and record the real demo, then complete the required submission steps himself.
+1. Have Peyton review the final AI-use disclosure (his simulated-AI scope choice is already confirmed), finish the separately prepared real computer-narrated recording, and complete required access/submission steps himself.
 2. Evaluate the prepared workflow with consenting tax-associate reviewers using fictional tasks; specifically test provenance comprehension and whether warnings prevent deduction over-reliance.
 3. If a later course milestone permits broader scope, design a structured evidence intake and privacy/review protocol before live research or saved workspaces.
 
 ## Audit and submission status
 
 - [Actual tests](tests.md), [baseline](evidence/before-change.md), and [change record](changes.md).
-- [Draft AI-use disclosure](ai-use-disclosure.md): Peyton confirmation pending.
+- [Draft AI-use disclosure](ai-use-disclosure.md): Peyton's simulated-AI scope decision confirmed; broader final review pending. ChatGPT planning/review/testing/narration contributions and Replit implementation/testing/documentation are attributed separately.
 - [Demo script and recording checklist](demo.md): real video pending, no video link.
 - Repository: https://github.com/peytondoty1-ui/GenAI
 - Public prototype supplied by the user: https://ledger-proof-ai.replit.app/ — deployment of this revision is not assumed.

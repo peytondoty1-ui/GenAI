@@ -1,11 +1,12 @@
 :root {
-  --charcoal: #242b29;
-  --emerald: #047857;
+  --charcoal: #0F161F;
+  --emerald: #12BF90;
+  --emerald-text: #047857;
   /* Compatibility aliases keep the existing component styling intact. */
-  --navy: var(--emerald);
+  --navy: var(--emerald-text);
   --navy-deep: #065f46;
   --navy-soft: #e8f5ef;
-  --ink: #17201d;
+  --ink: #0F161F;
   --muted: #52615a;
   --line: #d3dfd8;
   --paper: #f8faf9;
@@ -22,14 +23,14 @@ body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 va
 
 .notice {
   position: sticky; top: 0; z-index: 10;
-  background: var(--ink); color: #f2f8f5;
+  background: var(--ink); color: #ffffff;
   text-align: center; font-size: 0.9rem; font-weight: 500; padding: 9px 16px;
 }
 
-.masthead { background: var(--charcoal); color: #f4f8f6; padding: 36px 0 32px; }
-.eyebrow { margin: 0; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #85dabb; }
+.masthead { background: var(--ink); color: #ffffff; padding: 36px 0 32px; }
+.eyebrow { margin: 0; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--emerald); }
 h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 4vw, 2.75rem); margin: 4px 0 6px; line-height: 1.15; }
-.lede { margin: 0; font-size: 1.08rem; color: #d6e4dd; max-width: 60ch; }
+.lede { margin: 0; font-size: 1.08rem; color: #ffffff; max-width: 60ch; }
 
 .layout {
   display: grid; gap: 20px; padding-top: 28px; padding-bottom: 28px;
@@ -48,9 +49,9 @@ h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 4vw, 2.
   font: 600 0.95rem var(--sans); border-radius: 4px; padding: 10px 16px; cursor: pointer;
   border: 1px solid var(--navy); min-height: 44px;
 }
-.btn:focus-visible, textarea:focus-visible, #result [tabindex="-1"]:focus { outline: 3px solid var(--emerald); outline-offset: 2px; }
-.btn-primary { background: var(--navy); color: #fff; }
-.btn-primary:hover { background: var(--navy-deep); }
+.btn:focus-visible, textarea:focus-visible, #result [tabindex="-1"]:focus { outline: 3px solid var(--emerald-text); outline-offset: 2px; }
+.btn-primary { background: var(--emerald); color: var(--ink); border-color: var(--emerald-text); }
+.btn-primary:hover { background: #10AE83; color: var(--ink); }
 .btn-secondary { background: var(--navy-soft); color: var(--navy); }
 .btn-secondary:hover { background: #d4ecdf; }
 .btn-ghost { background: transparent; color: var(--navy); }
@@ -64,7 +65,7 @@ textarea {
 .help { color: var(--muted); font-size: 0.9rem; margin: 8px 0 16px; }
 
 .evidence-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.evidence-item { border-left: 3px solid var(--navy); background: var(--navy-soft); padding: 10px 12px; border-radius: 0 4px 4px 0; }
+.evidence-item { border-left: 3px solid var(--emerald); background: var(--navy-soft); padding: 10px 12px; border-radius: 0 4px 4px 0; }
 .evidence-item p { margin: 4px 0 0; }
 .tag { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy); }
 .basis { color: var(--muted); font-size: 0.86rem; font-style: italic; }
@@ -95,7 +96,7 @@ textarea {
 
 .doc { margin-top: 8px; }
 .doc summary, .review-details summary { cursor: pointer; font-weight: 600; color: var(--navy); min-height: 32px; }
-.doc summary:focus-visible, .review-details summary:focus-visible, .inspect:focus-visible, #result textarea:focus-visible { outline: 3px solid var(--emerald); outline-offset: 2px; }
+.doc summary:focus-visible, .review-details summary:focus-visible, .inspect:focus-visible, #result textarea:focus-visible { outline: 3px solid var(--emerald-text); outline-offset: 2px; }
 .doc-body { white-space: pre-wrap; font: 0.84rem/1.5 ui-monospace, Menlo, monospace; background: var(--card); border: 1px solid var(--line); padding: 10px; border-radius: 4px; margin: 6px 0 0; overflow-x: auto; }
 .facts { width: 100%; border-collapse: collapse; font-size: 0.93rem; margin-bottom: 8px; }
 .facts th, .facts td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--line); }

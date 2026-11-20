@@ -24,8 +24,22 @@ The main agent corrected the initial implementation's follow-up wording to match
 
 GitHub handoff must update only the relevant application and milestone documents. Unrelated content must be preserved. Existing remote README content is retained as historical documentation before replacement. No secrets, credentials, `.env`, installed dependencies, or unused scaffold files belong in the source handoff.
 
-Recording, Drive access checks, Canvas upload, and Peyton's personal disclosure confirmation remain pending; this record does not claim those actions occurred.
+Recording, Drive access checks, Canvas upload, and Peyton's broader final disclosure review remain pending; this record does not claim those actions occurred.
 
 ## Subsequent palette request
 
 Peyton requested ink/charcoal and emerald in place of navy. Applied the palette to the existing header, actions, evidence treatments, focus indicators, and favicon without changing the prepared workflows or milestone scope. Prior browser results remain evidence of the functional revision; screenshots from that run show the former palette. The palette change receives a fresh visual preview check, not a claimed repeat of the five-case browser pass.
+
+## Exact banner palette and review corrections
+
+- Matched supplied banner samples: ink #0F161F and emerald #12BF90. Header/notice use white on ink; primary buttons use ink on bright emerald. Small text/links and focus outlines use deeper emerald #047857 on light surfaces. Updated the icon to the same ink/emerald colors.
+- Corrected complete-example tax year to “Not supplied — needs confirmation.” A placed-in-service date is not a tax-year determination. The explicit 2026 follow-up answer remains client-reported, not verified.
+- Replaced the licensed-professional restriction with qualified professional/reviewer wording.
+- README now leads with Python's static-server instructions for the standalone public handoff, with no absent-workspace package commands.
+- Replaced personal-decision placeholders with Peyton's actual confirmed “Keep simulated AI (Recommended)” selection. He rejected adding a live model for this milestone and chose the complete testable review workflow. Broader final review remains pending.
+- Clarified ChatGPT's handoff-reported planning, original Canvas/repository review, independent baseline testing, and prepared computer-generated narration; representative prompt excerpts were sent by ChatGPT on Peyton's behalf, not asserted to be verbatim prompts Peyton typed. Replit Agent implementation/testing/documentation are distinct.
+- The computer-narrated screen recording is being prepared separately and remains pending until it actually exists. No sharing, messages, or Canvas submission occurred.
+
+Prior actual evaluation records and screenshots remain unchanged. The latest targeted verification is separate from the five-case milestone record.
+
+Targeted browser verification passed for exact computed brand colors, text contrast, corrected complete-example tax year, unverified follow-up year, reviewer wording, S2 inspection, and mobile layout. [Report](evidence/banner-brand-tax-year-check.md), [actual screenshot](evidence/banner-brand-tax-year.png). Prior test evidence was not overwritten.

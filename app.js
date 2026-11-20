@@ -117,7 +117,7 @@ function reviewDetails() {
   return el("details", { class: "review-details", id: "review-items", "data-testid": "details-review-items" }, [
     el("summary", { text: "Remaining review items (all unresolved)" }),
     el("ul", { class: "review" }, MEMO.review.map((r) => el("li", {}, [el("span", { class: "pill", text: "Unresolved" }), " ", r]))),
-    el("p", { class: "note", text: "This prototype has no approval action. Only a licensed professional outside this tool can resolve these items." }),
+    el("p", { class: "note", text: "This prototype has no approval action. These items require resolution by a qualified professional/reviewer outside this tool." }),
   ]);
 }
 

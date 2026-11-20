@@ -1,10 +1,14 @@
-# Draft AI-use disclosure — Peyton confirmation required
+# Draft AI-use disclosure — scope decision confirmed; final review pending
 
 This is a draft for Peyton to review and make accurate before submission. It is not a statement that Peyton has already reviewed or approved the work.
 
 ## Actual assistance
 
-Replit Agent was used for AI-assisted implementation and documentation. The agent inspected the existing application, organized the revision, and used a design implementation assistant for the frontend changes. A browser-testing assistant reproduced the earlier failure and was tasked with checking the revised interface. The agent drafted milestone analysis, test documentation, and a narrated demo script, and used the authorized GitHub connection for repository handoff if successful.
+Per the confirmed coordination handoff, **ChatGPT** assisted with planning, the original Canvas/repository review, independent baseline testing, and preparation of computer-generated narration. It sent representative implementation requests to Replit Agent on Peyton's behalf. These ChatGPT contributions are attributed from that handoff; they are not actions independently performed by Replit Agent.
+
+**Replit Agent** inspected and implemented the existing application, using a design implementation assistant for frontend changes and a browser-testing assistant for its own retained before/after verification. Replit Agent prepared milestone documentation and a demo-script draft, corrected source/branding, and synchronized the relevant source, documentation, and actual browser evidence to the authorized GitHub repository.
+
+Prepared computer-generated narration and the computer-narrated screen recording are distinct deliverables. The recording is being prepared separately and remains **pending** until it actually exists; no completed video or access link is claimed.
 
 AI assistance in building the prototype is separate from the prototype's own **Wizard-of-Oz simulation**. No live AI model powers the prototype, and no real tax-law research or verified tax determination was performed.
 
@@ -17,23 +21,22 @@ AI assistance in building the prototype is separate from the prototype's own **W
 - “Before making changes, reproduce and retain the earlier failure”
 - “Run at least five DISTINCT actual tests … State success criteria BEFORE executing each”
 
-These are excerpts from the user's revision instructions, not invented prompts from an earlier development history.
+These are representative excerpts sent by **ChatGPT on Peyton's behalf** in the coordinated revision request. They are **not claimed to be verbatim prompts Peyton personally typed**, nor an invented prompt history.
 
 ## Verification
 
-The agent used actual browser observations for the baseline and revised test record. See [tests.md](tests.md) and [before-change.md](evidence/before-change.md). Code inspection and syntax checks supplement those observations; they do not substitute for tax verification or human usability testing. Failed or untested checks must remain identified honestly. No video has been recorded.
+Replit Agent's retained verification used actual browser observations for the baseline and revised test record. See [tests.md](tests.md) and [before-change.md](evidence/before-change.md). This is separate from ChatGPT's independently reported baseline testing. Code inspection and syntax checks supplement observations; they do not substitute for tax verification or human usability testing. Failed or untested checks remain identified honestly. The computer-narrated screen recording remains pending.
 
-## Peyton's own judgment — **PENDING CONFIRMATION**
+## Peyton's confirmed scope decision
 
-Peyton: identify **one actual AI suggestion you personally rejected or corrected**, rather than adopting an invented example.
+Peyton actually selected **“Keep simulated AI (Recommended)”** in the scope-choice question. He rejected adding a live model for this milestone and chose a complete, testable review workflow.
 
-- Actual suggestion you received: **[Peyton to supply]**
-- What you rejected or corrected: **[Peyton to supply]**
-- Why, in your own words: **[Peyton to supply]**
-- How the final work reflects that judgment: **[Peyton to supply]**
+- **Alternative rejected:** adding a live model for this milestone.
+- **Choice confirmed:** keep simulated AI and complete the testable review workflow.
+- **Effect on the final work:** clarification continuation, scenario-specific source inspection, draft notes/rejection/review controls, and strict supported-input boundaries remain deterministic and fictional. No live model or authoritative-source retrieval was added.
 
-The agent's choice of bounded notes editing is an implementation decision, not evidence that Peyton personally rejected a suggestion. Do not describe it as Peyton's judgment unless he confirms that history.
+This records the confirmed selection and its stated scope consequence; it does not invent additional personal reasoning or claim Peyton has completed his broader final review. Bounded notes editing remains an implementation decision, not a separate personally rejected suggestion.
 
 ## Before using this disclosure
 
-Confirm the tool usage accurately reflects your work, read the code and documentation, check course disclosure requirements, supply your own judgment above, and take responsibility for the final submission. Do not claim unperformed human review, model accuracy, time savings, or tax research.
+Peyton: review the complete disclosure for accuracy, read the code and documentation, check course disclosure requirements, and take responsibility for the final submission. The scope choice above is confirmed; broader final review remains yours. Do not claim unperformed human review, model accuracy, time savings, or tax research.

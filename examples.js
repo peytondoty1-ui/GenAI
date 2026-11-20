@@ -89,7 +89,7 @@ export const FACT_ROWS = {
     ["Placed in service", "September 15, 2026", tx("S2", "Client-reported, not independently verified")],
     ["Business use", "100%", tx("S2", "Client-reported, not independently verified")],
     ["Entity", "LLC (from the name Northstar Design LLC)", tx("S1", "Inferred from client name; entity classification not verified")],
-    ["Tax year", "2026", tx("S2", "Derived from the client-reported placed-in-service date; not independently verified")],
+    ["Tax year", "Not supplied — needs confirmation", tx("S2", "The placed-in-service date does not establish the client's tax year; confirm separately")],
   ],
   followup: [
     ["Quantity", "Four laptops", tx("F1", "Client-reported answer, not independently verified")],

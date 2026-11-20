@@ -74,3 +74,19 @@ The tester noted a first Load/Generate attempt that left input empty until reloa
 Remaining evaluation: open every fact source end-to-end; run a complete Tab-only and assistive-technology check; test broader paraphrases of unsafe note claims; investigate any recurrence of the initial load anomaly; confirm the published revision after the owner republishes. No real client data, live model, or real tax law was used.
 
 Actual screenshots and chronological observations are linked in [the raw after-change report](evidence/after-change.md). Test screenshots are evidence, not the pending narrated demo video.
+
+## Later targeted branding and tax-year correction check
+
+The earlier records above are retained unchanged as observations of their respective versions. A separate [targeted browser check](evidence/banner-brand-tax-year-check.md) checked the latest corrections, not a rerun of the five-case suite.
+
+- Computed header/notice: #0F161F with white text, contrast **18.18:1**.
+- Computed primary action: #12BF90 with #0F161F text, contrast **7.69:1**.
+- Computed small source link: #047857 on white, contrast **5.48:1**.
+- Complete-example tax year: **Not supplied — needs confirmation**; service date remained September 15, 2026.
+- Prepared follow-up tax year: **2026**, explicitly client-reported and not independently verified.
+- Remaining-review wording: qualified professional/reviewer; no licensed-only restriction.
+- S2 source expanded correctly; mobile 390 × 844 had no horizontal overflow and a legible 44 px-high primary action.
+
+These targeted criteria passed in the browser. The [actual new screenshot](evidence/banner-brand-tax-year.png) is separate from historical screenshots. The original full-source/keyboard/reduced-motion coverage limits still apply; this was not a full accessibility audit or tax-accuracy check. Contrast uses WCAG relative-luminance calculations from computed RGB colors, not a perceptual display measurement.
+
+Separately, syntax checks passed for app.js/examples.js. Source assertions confirmed the two scenario-specific tax-year values, absence of workspace package commands in the standalone README, removal of the licensed-only wording, and replacement of personal-decision placeholders. These source checks are not represented as human tests.
