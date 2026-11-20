@@ -25,3 +25,7 @@ The main agent corrected the initial implementation's follow-up wording to match
 GitHub handoff must update only the relevant application and milestone documents. Unrelated content must be preserved. Existing remote README content is retained as historical documentation before replacement. No secrets, credentials, `.env`, installed dependencies, or unused scaffold files belong in the source handoff.
 
 Recording, Drive access checks, Canvas upload, and Peyton's personal disclosure confirmation remain pending; this record does not claim those actions occurred.
+
+## Subsequent palette request
+
+Peyton requested ink/charcoal and emerald in place of navy. Applied the palette to the existing header, actions, evidence treatments, focus indicators, and favicon without changing the prepared workflows or milestone scope. Prior browser results remain evidence of the functional revision; screenshots from that run show the former palette. The palette change receives a fresh visual preview check, not a claimed repeat of the five-case browser pass.

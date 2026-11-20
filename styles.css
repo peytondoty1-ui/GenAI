@@ -1,11 +1,14 @@
 :root {
-  --navy: #14284b;
-  --navy-deep: #0d1b35;
-  --navy-soft: #e8edf6;
-  --ink: #1b2436;
-  --muted: #55607a;
-  --line: #d3dae7;
-  --paper: #fbfcfe;
+  --charcoal: #242b29;
+  --emerald: #047857;
+  /* Compatibility aliases keep the existing component styling intact. */
+  --navy: var(--emerald);
+  --navy-deep: #065f46;
+  --navy-soft: #e8f5ef;
+  --ink: #17201d;
+  --muted: #52615a;
+  --line: #d3dfd8;
+  --paper: #f8faf9;
   --card: #ffffff;
   --amber-bg: #fdf5e4;
   --amber-line: #d9a640;
@@ -19,14 +22,14 @@ body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 va
 
 .notice {
   position: sticky; top: 0; z-index: 10;
-  background: var(--navy-deep); color: #f2f5fb;
+  background: var(--ink); color: #f2f8f5;
   text-align: center; font-size: 0.9rem; font-weight: 500; padding: 9px 16px;
 }
 
-.masthead { background: var(--navy); color: #f4f6fb; padding: 36px 0 32px; }
-.eyebrow { margin: 0; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #a9b8d6; }
+.masthead { background: var(--charcoal); color: #f4f8f6; padding: 36px 0 32px; }
+.eyebrow { margin: 0; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #85dabb; }
 h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 4vw, 2.75rem); margin: 4px 0 6px; line-height: 1.15; }
-.lede { margin: 0; font-size: 1.08rem; color: #d7dfee; max-width: 60ch; }
+.lede { margin: 0; font-size: 1.08rem; color: #d6e4dd; max-width: 60ch; }
 
 .layout {
   display: grid; gap: 20px; padding-top: 28px; padding-bottom: 28px;
@@ -45,18 +48,18 @@ h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 4vw, 2.
   font: 600 0.95rem var(--sans); border-radius: 4px; padding: 10px 16px; cursor: pointer;
   border: 1px solid var(--navy); min-height: 44px;
 }
-.btn:focus-visible, textarea:focus-visible, #result [tabindex="-1"]:focus { outline: 3px solid #7f9ad0; outline-offset: 2px; }
+.btn:focus-visible, textarea:focus-visible, #result [tabindex="-1"]:focus { outline: 3px solid var(--emerald); outline-offset: 2px; }
 .btn-primary { background: var(--navy); color: #fff; }
 .btn-primary:hover { background: var(--navy-deep); }
 .btn-secondary { background: var(--navy-soft); color: var(--navy); }
-.btn-secondary:hover { background: #dbe3f1; }
+.btn-secondary:hover { background: #d4ecdf; }
 .btn-ghost { background: transparent; color: var(--navy); }
 .btn-ghost:hover { background: var(--navy-soft); }
 
 .field-label { display: block; font-weight: 600; margin-bottom: 6px; }
 textarea {
   width: 100%; font: 0.97rem/1.55 var(--sans); color: var(--ink);
-  border: 1px solid #b6c1d6; border-radius: 4px; padding: 12px; resize: vertical; background: #fdfdff;
+  border: 1px solid #a9beb2; border-radius: 4px; padding: 12px; resize: vertical; background: #fdfffe;
 }
 .help { color: var(--muted); font-size: 0.9rem; margin: 8px 0 16px; }
 
@@ -92,7 +95,7 @@ textarea {
 
 .doc { margin-top: 8px; }
 .doc summary, .review-details summary { cursor: pointer; font-weight: 600; color: var(--navy); min-height: 32px; }
-.doc summary:focus-visible, .review-details summary:focus-visible, .inspect:focus-visible, #result textarea:focus-visible { outline: 3px solid #7f9ad0; outline-offset: 2px; }
+.doc summary:focus-visible, .review-details summary:focus-visible, .inspect:focus-visible, #result textarea:focus-visible { outline: 3px solid var(--emerald); outline-offset: 2px; }
 .doc-body { white-space: pre-wrap; font: 0.84rem/1.5 ui-monospace, Menlo, monospace; background: var(--card); border: 1px solid var(--line); padding: 10px; border-radius: 4px; margin: 6px 0 0; overflow-x: auto; }
 .facts { width: 100%; border-collapse: collapse; font-size: 0.93rem; margin-bottom: 8px; }
 .facts th, .facts td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--line); }
